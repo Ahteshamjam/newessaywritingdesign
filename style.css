@@ -1,0 +1,745 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container-two {
+    width: 100%;
+    padding: 50px 20px;
+    /* border: 2px solid purple; */
+}
+
+.inner-section {
+    width: 100%;
+    max-width: 1300px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+/* ====== Header Start ===== */
+#header-navigation-bar {
+    background: #f8f9fa;
+}
+
+section#header-navigation-bar {
+    padding: 0px 20px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+a.navbar-brand img {
+    margin-right: 200px;
+}
+
+.social-media-icon {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media-icon i {
+    font-size: 35px;
+    transition: all .4s ease-in-out;
+    color: #de347f;
+}
+
+.social-media-icon i:hover {
+    transform: scale(1.05);
+    color: #241355;
+}
+
+li.nav-item {
+    margin-right: 30px;
+}
+
+/* ====== Header End ===== */
+/* ====== Hero Start ===== */
+#hero {
+    background-image: url("imags/Pattern_img.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+}
+
+.hero-main-box {
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+}
+
+.hero-main-box-left {
+    width: 50%;
+    /* border: 2px solid green; */
+    padding: 10px;
+}
+
+.hero-main-box-right {
+    width: 50%;
+    /* border: 2px solid rgb(3, 245, 3); */
+}
+
+.hero-main-box-left-description {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #de347f;
+}
+
+.hero-main-box-left-heading-style {
+    font-size: 60px;
+}
+
+.hero-main-box-left-second-description {
+    font-size: 20px;
+}
+
+
+.hero-main-box-left-btn-style {
+    padding: 10px 40px;
+    background: #de347f;
+    color: white;
+    border: none;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+}
+
+.hero-main-box-left-btn-style:hover {
+    background: #5230d9;
+    transform: translatex(5px);
+    box-shadow: 4px 4px 10px black;
+
+}
+
+.hero-main-box-right img {
+    width: 100%;
+}
+
+/* ====== Hero End ===== */
+/* ====== Sub Service Start ===== */
+#sub-services {
+    padding-top: 0px;
+}
+.sub-services-main-box {
+    width: 100%;
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px 17px;
+    flex-wrap: wrap;
+    background: #5230d9;
+    border-radius: 15px;
+}
+
+.sub-services-main-box-sub-box {
+    width: 400px;
+    /* border: 2px solid purple; */
+    display: flex;
+    padding: 10px;
+}
+
+.sub-services-main-box-sub-box-left {
+    width: 20%;
+    /* border: 2px solid olive; */
+    display: flex;
+    justify-content: center;
+}
+
+.sub-services-main-box-sub-box-right {
+    width: 80%;
+    /* border: 2px solid rgb(255, 255, 2); */
+}
+
+.sub-services-main-box-sub-box-right-heading-style {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.sub-services-main-box-sub-box-left i {
+    font-size: 46px;
+    color: white;
+}
+
+.sub-services-main-box-sub-box-right-description {
+    color: white;
+    font-size: 15px;
+}
+.add-border-left-and-right{
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+}
+/* ====== Sub Service End ===== */
+/* ====== How We Are Start ===== */
+#how-we-are {
+    padding-top: 0px;
+}
+.how-we-are-main-box{
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+.how-we-are-main-box-left{
+    width: 50%;
+    /* border: 2px solid orangered; */
+    padding: 10px;
+    position: relative;
+}
+.how-we-are-main-box-left img{
+    width: 100%;
+    border-radius: 10px;
+}
+.how-we-are-main-box-right{
+    width: 50%;
+    /* border: 2px solid purple; */
+    padding: 10px 60px;
+}
+.how-we-are-main-box-right-description {
+    color: #de347f;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.how-we-are-main-box-right-heading-style {
+    font-size: 39px;
+    font-weight: 600;
+}
+.how-we-are-main-box-right-second-description {
+    margin-top: 30px;
+}
+.experiness-box{
+    width: 100px;
+    height: 100px;
+    background: #241355;
+    border-radius: 50px;
+    flex-direction: column;
+    position: absolute;
+    right: -9px;
+    bottom: -9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experiness-box-heading-style {
+    margin-bottom: -4px;
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+}
+.experiness-box-description {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+/* ====== How We Are End ===== */
+/* ===== Write For US Start ====== */
+.writer-for-us-description {
+    text-align: center;
+    font-weight: 500;
+    color: #de347f;
+}
+.writer-for-us-heading-style {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.writer-for-us-main-box{
+    width: 100%;
+    /* border: 2px solid olivedrab; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.writer-for-us-main-box-sub-box{
+    width: 350px;
+    /* border: 2px solid green; */
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 15px;
+    transition: all .4s ease-in-out;
+}
+.writer-for-us-main-box-sub-box:hover{
+    background: #241355;
+    cursor: pointer;
+    transform: translateX(5px);
+  
+}
+.writer-for-us-main-box-sub-box:hover .writer-for-us-main-box-sub-box-heading-style  {
+    color: white;
+}
+.writer-for-us-main-box-sub-box:hover .writer-for-us-main-box-sub-box i{
+    color: white;
+}
+.writer-for-us-main-box-sub-box:hover .writer-for-us-main-box-sub-box-description {
+ color: white;
+}
+.writer-for-us-main-box-sub-box i {
+    font-size: 50px;
+    color: #de347f;
+}
+.writer-for-us-main-box-sub-box-heading-style {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.writer-for-us-main-box-sub-box-description {
+    text-align: center;
+}
+/* ===== Write For US End ====== */
+/* ===== Helping Business Start ====== */
+section#helping-business {
+    padding-top: 0px;
+}
+.helping-business-main-box{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.helping-business-main-box-left{
+    width: 50%;
+    /* border: 2px solid orangered; */
+    padding: 0px 30px;
+}
+.helping-business-main-box-right{
+    width: 50%;
+    /* border: 2px solid rgb(122, 80, 64); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.helping-business-main-box-left-heading-style {
+    font-size: 40px;
+    font-weight: 600;
+}
+.helping-business-main-box-left-heading-with-icon-description {
+    display: flex;
+    align-items: center;
+}
+.helping-business-main-box-left-heading-with-icon-description i {
+    font-size: 50px;
+    color: #de347f;
+}
+.helping-business-main-box-left-second-description {
+    margin-left: 50px;
+}
+p.helping-business-main-box-left-sub-heading {
+    margin-bottom: 5px;
+    color: #de347f;
+    font-weight: 500;
+}
+/* ===== Helping Business End ====== */
+/* ===== Testimonial Start ====== */
+section#testimonial {
+    padding-top: 0px;
+}
+.testimonial-sub-heading {
+    text-align: center;
+    color: #de347f;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.testimonial-main-box{
+    width: 100%;
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    margin-top: 50px;
+}
+.testimonial-main-box-sub-box{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow:4px 4px 10px black;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.testimonial-main-box-sub-box:hover{
+    transform: translateY(-5px);
+}
+.testimonial-main-box-sub-box-image-box{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.testimonial-main-box-sub-box-image-box img{
+    width: 100%;
+}
+.testimonial-main-box-sub-box-description {
+    text-align: center;
+    margin-top: 15px;
+}
+.neame-text-style {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.filed-text-style {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.testimonial-heading-style {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+/* =====  Testimonial End ====== */
+/* =====  Need Your Help Start ====== */
+#need-your-help{
+    background: #241355;
+    padding-bottom: 100px;
+}
+.need-your-help-main-box{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.need-your-help-main-box-sub-heading {
+    text-align: center;
+    font-weight: 500;
+    color: #de347f;
+}
+.need-your-help-main-box-heading-style {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.need-your-help-main-box-description {
+    text-align: center;
+    color: white;
+}
+/* =====  Need Your Help End ====== */
+/* =====  Need Your Help sub Style Start ====== */
+#need-your-help-sub-box{
+    position: relative;
+    padding-bottom: 147px;
+}
+.need-your-help-sub-box-main-box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+    position: absolute;
+    left: 0px;
+    top: -59px;
+}
+.need-your-help-sub-box-main-box-sub-box{
+    width: 300px;
+    /* border: 2px solid olive; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 44px 10px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px black;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.need-your-help-sub-box-main-box-sub-box:hover{
+    transform: translatex(5px);
+}
+.need-your-help-sub-box-main-box-sub-box i {
+    font-size: 45px;
+    color: #de347f;
+}
+.need-your-help-sub-box-main-box-sub-box-heading-style {
+    font-weight: 600;
+}
+.need-your-help-sub-box-main-box-sub-box-description {
+    text-align: center;
+}
+button.need-your-help-sub-box-main-box-sub-box-btn-style {
+    padding: 10px 40px;
+    background: #de347f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: all .4s ease-in-out;
+}
+button.need-your-help-sub-box-main-box-sub-box-btn-style:hover{
+    box-shadow: 4px 4px 10px black;
+    transform: translateY(-5px);
+}
+/* =====  Need Your Help sub Style End ====== */
+/* =====  Faqs Start ====== */
+.faqs-main-box{
+    width: 100%;
+    /* border: 2px solid olivedrab; */
+    display: flex;
+}
+.faqs-main-box-left{
+    width: 30%;
+    /* border: 2px solid pink; */
+    padding-left: 17px;
+    padding-right: 10px;
+}
+.faqs-main-box-right{
+    width: 70%;
+    /* border: 2px solid rgb(122, 3, 23); */
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+}
+.faqs-main-box-left-sub-heading {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #de347f;
+}
+.faqs-main-box-left-heading-style {
+    font-weight: 600;
+}
+img.faqs-main-box-left-image-adjust {
+    width: 100%;
+}
+/* =====  Faqs End ====== */
+/* =====  Talk To The World Start ====== */
+#talk-to-the-world{
+    padding-top: 0px;
+}
+.talk-to-the-world-main-box{
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+.talk-to-the-world-main-box-left{
+    width: 80%;
+    /* border: 2px solid olivedrab; */
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+.talk-to-the-world-main-box-right{
+    width: 20%;
+    /* border: 2px solid rgb(168, 252, 0); */
+}
+.talk-to-the-world-main-box-right img {
+    width: 100%;
+}
+.talk-to-the-world-main-box-left-heading-style {
+    font-size: 40px;
+    font-weight: 700;
+}
+section#faqs {
+    margin-top: 100px;
+}
+/* =====  Talk To The World  End ====== */
+/* =====  Footer Start  ====== */
+#footer{
+    background: #1f0f4b;
+}
+.footer-main-box{
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+}
+.footer-main-box-first-box{
+    width: 250px;
+    /* border: 2px solid black; */
+}
+.social-media-icon-box{
+    width: 100%;
+    /* border: 2px solid goldenrod; */
+    display: flex;
+    gap: 20px;
+}
+.social-media-icon-box-sub-box{
+    width: 30px;
+    height: 30px;
+    box-shadow: 4px 4px 10px black;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: all .4s ease-in-out;
+}
+.social-media-icon-box-sub-box:hover{
+    transform: translateY(-5px);
+    background: #5230d9;
+}
+.social-media-icon-box-sub-box:hover i{
+    color: white;
+}
+.social-media-icon-box-sub-box i{
+    font-size: 25px;
+    color: #de347f;
+}
+.footer-log-size-style {
+    margin-bottom: 35px;
+    filter: invert(1);
+}
+.adjust-width {
+    width: 350px;
+}
+.footer-main-box-first-box-description {
+    color: white;
+    transition: all .4s ease-in-out;
+}
+.footer-main-box-first-box-heading-style {
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-main-box-first-box a p:hover{
+    margin-left: 5px;
+    color: #de347f;
+}
+/* =====  Footer End ====== */
+
+/* Media Query Start */
+@media (max-width:990px) {
+    .hero-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-main-box-left {
+        width: 100%;
+        padding: 10px;
+    }
+    .hero-main-box-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .how-we-are-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .how-we-are-main-box-left {
+        width: 100%;
+        padding: 10px;
+        position: relative;
+    }
+    .how-we-are-main-box-right {
+        width: 100%;
+        padding: 10px 60px;
+    }
+    .helping-business-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .helping-business-main-box-left {
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .helping-business-main-box-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .need-your-help-sub-box-main-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px 50px;
+        position: relative;
+        left: 0px;
+        top: -0px;
+    }
+    section#faqs {
+        margin-top: 0px;
+    }
+    #need-your-help-sub-box {
+        position: relative;
+        padding-bottom: 0px;
+    }
+    .faqs-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .faqs-main-box-left {
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 10px;
+    }
+    .faqs-main-box-left-sub-heading {
+        margin-bottom: 5px;
+        font-weight: 500;
+        color: #de347f;
+        text-align: center;
+    }
+    .faqs-main-box-left-heading-style {
+        font-weight: 600;
+        text-align: center;
+    }
+    .faqs-main-box-left-description {
+        text-align: center;
+    }
+    .faqs-main-box-right {
+        width: 100%;
+        padding: 0px 40px;
+        display: flex;
+        align-items: center;
+    }
+    .talk-to-the-world-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .talk-to-the-world-main-box-left-heading-style {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .talk-to-the-world-main-box-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .talk-to-the-world-main-box-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .talk-to-the-world-main-box-left-description {
+        text-align: center;
+    }
+    .talk-to-the-world-main-box-right {
+        width: 100%;
+    }
+    .talk-to-the-world-main-box-right img{
+        width: 100%;
+    }
+    .footer-main-box {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 20px 50px;
+    }
+}
+/* Media Query End */
